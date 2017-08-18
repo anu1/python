@@ -11,8 +11,8 @@ def getAddrInfoWrapper(host, port, family=0, socktype=0, proto=0, flags=0):
     # replace the original socket.getaddrinfo by our version
 socket.getaddrinfo = getAddrInfoWrapper
 
-API_KEY = '81ufotojsbr7p6'
-API_SECRET = '2pMIJAu4LeOXwFjS'
+API_KEY = ''
+API_SECRET = 'S'
 
 RETURN_URL = 'https://localhost/auth/linkedin/callback'
 
